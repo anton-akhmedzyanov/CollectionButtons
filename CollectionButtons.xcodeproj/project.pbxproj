@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1B48AF2A0B97A700477CDB /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B48AE2A0B97A700477CDB /* MainCollectionViewController.swift */; };
+		3A1B48B12A0BE19F00477CDB /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B48B02A0BE19F00477CDB /* NetworkManger.swift */; };
 		3A1DDD0F2A05AB9800BA9441 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DDD0E2A05AB9800BA9441 /* AppDelegate.swift */; };
 		3A1DDD112A05AB9800BA9441 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DDD102A05AB9800BA9441 /* SceneDelegate.swift */; };
-		3A1DDD132A05AB9800BA9441 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DDD122A05AB9800BA9441 /* ViewController.swift */; };
 		3A1DDD162A05AB9800BA9441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1DDD142A05AB9800BA9441 /* Main.storyboard */; };
 		3A1DDD192A05AB9800BA9441 /* CollectionButtons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DDD172A05AB9800BA9441 /* CollectionButtons.xcdatamodeld */; };
 		3A1DDD1B2A05AB9800BA9441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1DDD1A2A05AB9800BA9441 /* Assets.xcassets */; };
 		3A1DDD1E2A05AB9800BA9441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1DDD1C2A05AB9800BA9441 /* LaunchScreen.storyboard */; };
+		3AE926E42A06362100042640 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE926E32A06362100042640 /* ImageViewController.swift */; };
+		3AE926E62A06365700042640 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE926E52A06365700042640 /* ListTableViewController.swift */; };
+		3AE926E92A063B0200042640 /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE926E82A063B0200042640 /* CourseCell.swift */; };
+		3AE926EB2A06487200042640 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE926EA2A06487200042640 /* UserActionCell.swift */; };
+		3AE926F12A06965900042640 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE926F02A06965900042640 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A1B48AE2A0B97A700477CDB /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		3A1B48B02A0BE19F00477CDB /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
 		3A1DDD0B2A05AB9800BA9441 /* CollectionButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1DDD0E2A05AB9800BA9441 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A1DDD102A05AB9800BA9441 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A1DDD122A05AB9800BA9441 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A1DDD152A05AB9800BA9441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A1DDD182A05AB9800BA9441 /* CollectionButtons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionButtons.xcdatamodel; sourceTree = "<group>"; };
 		3A1DDD1A2A05AB9800BA9441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A1DDD1D2A05AB9800BA9441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A1DDD1F2A05AB9800BA9441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE926E32A06362100042640 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		3AE926E52A06365700042640 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		3AE926E82A063B0200042640 /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		3AE926EA2A06487200042640 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
+		3AE926F02A06965900042640 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A1B48A82A0B953600477CDB /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				3A1DDD102A05AB9800BA9441 /* SceneDelegate.swift */,
+				3A1DDD0E2A05AB9800BA9441 /* AppDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		3A1B48A92A0B955900477CDB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3A1DDD142A05AB9800BA9441 /* Main.storyboard */,
+				3A1DDD1C2A05AB9800BA9441 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3A1B48AB2A0B958900477CDB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B48B02A0BE19F00477CDB /* NetworkManger.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		3A1DDD022A05AB9700BA9441 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +96,44 @@
 		3A1DDD0D2A05AB9800BA9441 /* CollectionButtons */ = {
 			isa = PBXGroup;
 			children = (
-				3A1DDD0E2A05AB9800BA9441 /* AppDelegate.swift */,
-				3A1DDD102A05AB9800BA9441 /* SceneDelegate.swift */,
-				3A1DDD122A05AB9800BA9441 /* ViewController.swift */,
-				3A1DDD142A05AB9800BA9441 /* Main.storyboard */,
-				3A1DDD1A2A05AB9800BA9441 /* Assets.xcassets */,
-				3A1DDD1C2A05AB9800BA9441 /* LaunchScreen.storyboard */,
+				3A1B48AB2A0B958900477CDB /* Services */,
+				3A1B48A82A0B953600477CDB /* Supports */,
+				3A1B48A92A0B955900477CDB /* Storyboards */,
+				3AE926EF2A06963A00042640 /* Model */,
+				3AE926E22A0635E200042640 /* ViewControllers */,
+				3AE926E72A063AC400042640 /* Views */,
 				3A1DDD1F2A05AB9800BA9441 /* Info.plist */,
+				3A1DDD1A2A05AB9800BA9441 /* Assets.xcassets */,
 				3A1DDD172A05AB9800BA9441 /* CollectionButtons.xcdatamodeld */,
 			);
 			path = CollectionButtons;
+			sourceTree = "<group>";
+		};
+		3AE926E22A0635E200042640 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B48AE2A0B97A700477CDB /* MainCollectionViewController.swift */,
+				3AE926E32A06362100042640 /* ImageViewController.swift */,
+				3AE926E52A06365700042640 /* ListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3AE926E72A063AC400042640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AE926E82A063B0200042640 /* CourseCell.swift */,
+				3AE926EA2A06487200042640 /* UserActionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AE926EF2A06963A00042640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AE926F02A06965900042640 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +152,8 @@
 			dependencies = (
 			);
 			name = CollectionButtons;
+			packageProductDependencies = (
+			);
 			productName = CollectionButtons;
 			productReference = 3A1DDD0B2A05AB9800BA9441 /* CollectionButtons.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 3A1DDD022A05AB9700BA9441;
+			packageReferences = (
+				3AE926EC2A065B4100042640 /* XCRemoteSwiftPackageReference "SpringAnimation" */,
+			);
 			productRefGroup = 3A1DDD0C2A05AB9800BA9441 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,8 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1DDD132A05AB9800BA9441 /* ViewController.swift in Sources */,
+				3A1B48B12A0BE19F00477CDB /* NetworkManger.swift in Sources */,
+				3AE926F12A06965900042640 /* Course.swift in Sources */,
+				3A1B48AF2A0B97A700477CDB /* MainCollectionViewController.swift in Sources */,
 				3A1DDD192A05AB9800BA9441 /* CollectionButtons.xcdatamodeld in Sources */,
+				3AE926E42A06362100042640 /* ImageViewController.swift in Sources */,
+				3AE926E92A063B0200042640 /* CourseCell.swift in Sources */,
+				3AE926EB2A06487200042640 /* UserActionCell.swift in Sources */,
+				3AE926E62A06365700042640 /* ListTableViewController.swift in Sources */,
 				3A1DDD0F2A05AB9800BA9441 /* AppDelegate.swift in Sources */,
 				3A1DDD112A05AB9800BA9441 /* SceneDelegate.swift in Sources */,
 			);
@@ -306,6 +383,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AntonAkhmedzyanov.CollectionButtons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +414,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AntonAkhmedzyanov.CollectionButtons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,6 +445,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AE926EC2A065B4100042640 /* XCRemoteSwiftPackageReference "SpringAnimation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LexDeBash/SpringAnimation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		3A1DDD172A05AB9800BA9441 /* CollectionButtons.xcdatamodeld */ = {
